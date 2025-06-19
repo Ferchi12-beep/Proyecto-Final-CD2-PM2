@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Medidas de Dispersión</title>
+  <style>
+    body {font-family: sans-serif;
+      background-color: #e0f7fa;
+      color: #333;
+      padding: 20px;}
+    h1 {color: #2c3e50;}
+    .concepto {
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+    h2 {
+      color: #f20808;
+    }
+    .ejemplo {
+      background-color: #f9f9f9;
+      padding: 10px;
+      margin-top: 10px;
+      /* border-left eliminado */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Medidas de Dispersión</h1>
+
+  <div class="concepto">
+    <h2>Rango</h2>
+    <p>El <strong>rango</strong> se refiere a la diferencia entre el valor máximo y el valor mínimo de un conjunto de datos. También puede referirse a la imagen de una función, es decir, el conjunto de todos los valores que la función puede tomar. </p>
+    <div class="ejemplo">
+      <strong>Ejemplo:</strong><br>Datos: <strong>70</strong>, 75, 80, 85, <strong>90</strong> <br>
+      Rango: 90−70= <strong>20</strong>
+    </div>
+  </div>
+
+  <div class="concepto">
+    <h2>Varianza</h2>
+    <p>La <strong>varianza</strong> es una medida estadística que cuantifica la dispersión o variabilidad de un conjunto de datos con respecto a su media. En otras palabras, indica qué tan dispersos están los datos alrededor del valor promedio. </p>
+    <div class="ejemplo">
+      <strong>Ejemplo:</strong><br>
+      Datos: 2, 4, 4, 5, 6<br>
+     1.-Sacamos la media:  <strong>4.2</strong>. 
+<br>2.- Restamos cada dato con la media y lo elevamos al cuadrado: (2−4.2)² = 4.84(4−4.2)² = 0.04(4−4.2)² = 0.04(5−4.2)² = 0.64(6−4.2)² = 3.24
+<br>3.- Sumamos esos resultados: 4.84 + 0.04 + 0.04 + 0.64 + 3.24 = 8.80
+<br>4.- Dividimos entre la cantidad de datos: <strong>Varianza</strong> =  8.80 / 5 = <strong>1.76</strong>
+    </div>
+  </div>
+
+  <div class="concepto">
+    <h2>Desviación Estándar</h2>
+    <p>La <strong>desviación estándar</strong> es una medida estadística que indica qué tan dispersos están los datos con respecto a su media. En otras palabras, muestra cuánto se alejan los valores individuales del promedio del conjunto de datos.</p>
+    <div class="ejemplo">
+      <strong>Ejemplo:</strong><br>
+      Datos: 2, 4, 4, 5, 6
+<br>1.- Sacamos la media (promedio): <strong>4.2</strong>
+<br>2.- Restamos cada dato con la media y lo elevamos al cuadrado: (2−4.2)² = 4.84(4−4.2)² = 0.04(4−4.2)² = 0.04(5−4.2)² = 0.64(6−4.2)² = 3.24
+<br>3.- Sumamos esos resultados: 4.84 + 0.04 + 0.04 + 0.64 + 3.24 = 8.80
+<br>4.- Dividimos entre el número de datos (si es población): 8.80 / 5 = 1.76
+<br>5.- Sacamos la raíz cuadrada del resultado (eso es la <strong>desviación estándar</strong>): √1.76 ≈ <strong>1.33</strong>
+    </div>
+  </div>
+
+<div class="concepto">
+    <h2>Rango intercuartílico (RIC)</h2>
+    <p>El <strong>rango intercuartílico</strong> es una medida de dispersión estadística que indica la longitud del intervalo que contiene la mitad central de una distribución de datos.</p>
+    <div class="ejemplo">
+      <strong>Ejemplo:</strong>
+<br>Datos (ordenados): 1, 3, 4, 6, 7, 8, 9
+<br>1.- Buscar la mediana (Q2): <strong>Q2</strong> = <strong>6</strong>
+<br>2.- Buscar el primer cuartil (Q1): (Es la <strong>mediana de la mitad inferior antes de Q2</strong>): 1, 3, 4 → <strong>Q1 = 3</strong>
+<br>3.- Buscar el tercer cuartil (Q3): (Es la <strong>mediana de la mitad superior después de Q2</strong>): 7, 8, 9 → <strong>Q3 = 8</strong>
+<br>4.- Calcular el Rango Intercuartílico (RIC): <strong>RIC</strong> = 𝑄3 − 𝑄1 = 8 − 3 = <strong>5</strong>
+
+</div>
+  </div>
+
+<a href="index.html">
+  <img src="Pagina Principal.jpg" alt="Ir a Pagina principal"width="100"style="border: 4px solid #3399ff; border-radius: 10px;">
+</a>
+
+</body>
+</html>
